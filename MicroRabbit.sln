@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.Bus", "Infra.Bus\MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{7EE47324-88E5-4049-98CA-0C96854BB5E9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{BF540618-302B-401A-B588-1C4A1C2354BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IoC", "Infra.IoC\MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{935D2F35-ECE6-4045-BE0A-32C31BF1B940}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,9 +52,22 @@ Global
 		{7EE47324-88E5-4049-98CA-0C96854BB5E9}.Release|x64.Build.0 = Release|Any CPU
 		{7EE47324-88E5-4049-98CA-0C96854BB5E9}.Release|x86.ActiveCfg = Release|Any CPU
 		{7EE47324-88E5-4049-98CA-0C96854BB5E9}.Release|x86.Build.0 = Release|Any CPU
+		{935D2F35-ECE6-4045-BE0A-32C31BF1B940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935D2F35-ECE6-4045-BE0A-32C31BF1B940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935D2F35-ECE6-4045-BE0A-32C31BF1B940}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{935D2F35-ECE6-4045-BE0A-32C31BF1B940}.Debug|x64.Build.0 = Debug|Any CPU
+		{935D2F35-ECE6-4045-BE0A-32C31BF1B940}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{935D2F35-ECE6-4045-BE0A-32C31BF1B940}.Debug|x86.Build.0 = Debug|Any CPU
+		{935D2F35-ECE6-4045-BE0A-32C31BF1B940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{935D2F35-ECE6-4045-BE0A-32C31BF1B940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{935D2F35-ECE6-4045-BE0A-32C31BF1B940}.Release|x64.ActiveCfg = Release|Any CPU
+		{935D2F35-ECE6-4045-BE0A-32C31BF1B940}.Release|x64.Build.0 = Release|Any CPU
+		{935D2F35-ECE6-4045-BE0A-32C31BF1B940}.Release|x86.ActiveCfg = Release|Any CPU
+		{935D2F35-ECE6-4045-BE0A-32C31BF1B940}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5679B6E7-FC60-430F-97ED-4DB0781F13D8} = {A68A3477-306F-40E3-A401-E0EB5BC0C03C}
 		{7EE47324-88E5-4049-98CA-0C96854BB5E9} = {7A10859F-62AE-48A1-9ECB-C8F98150AADE}
+		{935D2F35-ECE6-4045-BE0A-32C31BF1B940} = {BF540618-302B-401A-B588-1C4A1C2354BA}
 	EndGlobalSection
 EndGlobal
